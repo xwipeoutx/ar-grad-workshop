@@ -15,5 +15,13 @@ If this works, you're on your way!
 
 * Open the project up
 * Choose your platform
-* Hit build and run
+* Hit build and run (Ctrl+B)
+  * I build to `/ar-starter-game/Build` - which is included in `.gitignore`.  Safe!
 
+Once it starts up, you should see sparkles on detected world feature points, and a cube staying in the same place in the world
+
+So shiny.
+
+## Running in the editor
+
+The scene has an "editor camera" set up.  Press play in the editor and use RMB + WASD to move around. Like an FPS.
