@@ -2,7 +2,7 @@
 
 This project is a little starter - comes with ARFoundation, ARCore, ARKit and a mostly empty first scene to verify it works.  Great for a beginner workshop or hack day.
 
-For workshopshop specific information, see the [workshop readme](workshop/README.md)
+For workshop specific information, see the [workshop readme](workshop/README.md)
 
 ## Prerequisites
 
