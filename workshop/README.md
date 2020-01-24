@@ -1,6 +1,6 @@
 # Workshop contents
 
-## What's are we building?
+## What are we building?
 
 We will be transforming your office into a garden. Place flowers and plants down, and watch them grow.
 
@@ -26,7 +26,7 @@ And some stretch goals for the motivated
 
 * Have a deployed ARFoundation app successfully running on your AR device
   * Failing this, at LEAST have it 
-  * Follow the instructions in [../README.md](the base readme)
+  * Follow the instructions in [the base readme](../README.md)
 
 ### Other
 
