@@ -1,4 +1,4 @@
-# AR Starter
+# AR workshop
 
 This project is a little starter - comes with ARFoundation, ARCore, ARKit and a mostly empty first scene to verify it works.
 
@@ -25,3 +25,7 @@ So shiny.
 ## Running in the editor
 
 The scene has an "editor camera" set up.  Press play in the editor and use RMB + WASD to move around. Like an FPS.
+
+# What now?
+
+Check out the workshop
