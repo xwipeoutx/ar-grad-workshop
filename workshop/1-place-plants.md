@@ -9,33 +9,36 @@ First thing to do is to create your plant model - this is what will get placed o
 <details>
 <summary>Download a 3d model and drag it into your assets folder to import it</summary>
 
-![Import plant](!./img/import-assets.gif)
+![Import plant](img/import-assets.gif)
 
 </details>
 
 <details>
 <summary>In your scene, right click an empty area, and choose "Create Empty".  Rename it and ensure it is not transformed in any way.</summary>
 
-![Create Empty](!./img/plant-base-object.gif)
+![Create Empty](img/plant-base-object.gif)
 
 </details>
 
 <details>
 <summary>Drag the model under your plant game object, and resize to a reasonable size for your scene.</summary>
 
-![Add plant to scene](!./add-plant-to-scene.gif)
+![Add plant to scene](img/add-plant-to-scene.gif)
 
 </details>
 
 <details>
 <summary>Create a prefab out of the plant by dragging the root object into the Prefabs folder.</summary>
 
-![Create plant prefab](!./plant-prefab.gif)
+![Create plant prefab](img/plant-prefab.gif)
 
 </details>
 
 <details>
 <summary>Delete the plant from the scene</summary>
+
+You can work this one out yourself :)
+
 </details>
 
 ## 2. THE REST
