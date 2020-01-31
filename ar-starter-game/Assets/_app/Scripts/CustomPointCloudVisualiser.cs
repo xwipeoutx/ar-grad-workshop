@@ -59,8 +59,8 @@ namespace Augo.Scripts
             var randomInCircle = Random.insideUnitCircle;
             return 3*new Vector3(randomInCircle.x, 0, randomInCircle.y);
 #else
-            var randomPosition = Random.Range(0, pointCloud.positions.Length - 1);
-            return pointCloud.positions[randomPosition];
+            var randomPosition = Random.Range(0, pointCloud.positions.Value.Length - 1);
+            return pointCloud.positions.Value[randomPosition];
 #endif
         }
     }
