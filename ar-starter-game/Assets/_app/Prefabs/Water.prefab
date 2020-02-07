@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5468191787849656226}
   - component: {fileID: 5468191787849656228}
   - component: {fileID: 5468191787849656231}
+  - component: {fileID: -6614504890060135157}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -53,7 +54,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5468191787849656231
 Rigidbody:
@@ -71,6 +72,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6614504890060135157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468191787849656230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991270c07bc0485494b1938dd54e436d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLifetime: 2
 --- !u!1 &5468191788936055946
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,7 +3699,7 @@ ParticleSystem:
   CollisionModule:
     enabled: 0
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -3753,7 +3767,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -3806,7 +3820,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
