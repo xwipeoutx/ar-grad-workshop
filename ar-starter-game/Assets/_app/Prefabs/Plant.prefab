@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1084081302984856202}
-  m_Layer: 0
+  - component: {fileID: 3480280722197172100}
+  - component: {fileID: -881856680743221365}
+  m_Layer: 8
   m_Name: Plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,6 +33,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3480280722197172100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084081302984856203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.376073, y: 0.8117995, z: 0.39350125}
+  m_Center: {x: 0.012199581, y: 0.38595796, z: 0.0034856051}
+--- !u!114 &-881856680743221365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084081302984856203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c901022e399019d43a796510b9868eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growthSource:
+    serializedVersion: 2
+    m_Bits: 512
+  growthRate: 0.01
+  maxScale: 2
 --- !u!1001 &1886070900995484300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,6 +144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: simple-cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2723724c0eb5916449c6ac3113bd6917,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2723724c0eb5916449c6ac3113bd6917, type: 3}
