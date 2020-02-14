@@ -48,6 +48,6 @@ TODO
 
 ## 5. Test it
 
-Check it in, and [move on](3-multiplayer.md)
+Check it in, and you're done
 
 Or [back to top](README.md)

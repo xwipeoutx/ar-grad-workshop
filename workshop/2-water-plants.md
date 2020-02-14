@@ -304,6 +304,6 @@ Think about how we can make this better:
 2. Add ability to turn the hose on and off
 3. Adjust hose strength
 
-Check it in, and [move on](2-water-plants.md) TODO
+Check it in, and [move on to multiplayer](3-multiplayer.md) 
 
 Or [back to top](README.md)
