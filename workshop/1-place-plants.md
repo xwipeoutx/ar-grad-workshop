@@ -199,4 +199,6 @@ Hit play. OMIGOSH, it works.
 
 ![Test placement](img/omigosh-plants-work.gif)
 
-Check it in, and move on
+Check it in, and [move on](2-water-plants.md)
+
+Or [back to top](README.md)

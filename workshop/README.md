@@ -41,7 +41,7 @@ For example
 
 ### Bring on the day
 
-* Print out of the [image marker](../useful-assets/image-target.png) - black and white, 19.3 x 19.3 cm (at least to share)
+* Print out of the [image marker](../useful-assets/image-target.png) - black and white, 19.3 x 19.3 cm (at least 1 to share)
 * To snacks and lunch, or you'll be hungry
 * If you want some nice visuals, find some 3D assets to place around the room - flowers, pot-plants etc.
   * [TurboSquid](https://www.turbosquid.com/)
@@ -49,3 +49,9 @@ For example
   * [Free3D](https://free3d.com/)
 * Your laptop charger (you will run out of battery running Unity)
 * A mouse  (3d without a mouse = paaain)
+
+### Workshop bits
+
+1. [Place plants around the room](1-place-plants.md)
+2. [Water the plants](2-water-plants.md)
+3. [Multiplayer](README.md) TODO
