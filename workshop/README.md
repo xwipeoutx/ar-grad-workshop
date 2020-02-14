@@ -54,4 +54,4 @@ For example
 
 1. [Place plants around the room](1-place-plants.md)
 2. [Water the plants](2-water-plants.md)
-3. [Multiplayer](README.md) TODO
+3. [Multiplayer](3-multiplayer.md)
