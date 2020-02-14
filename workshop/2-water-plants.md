@@ -231,12 +231,14 @@ A few things:
 
 ## 3. Make the plants grow
 
-1. Script
-2. Water layer
-3. Add to plant
-4. Test
+Time to make the plants grow.
 
-Script
+The idea here is to look for collisions from objects in a particular layer (eg. the water layer), and then simply increase the plant scale.
+
+<details>
+    <summary>Write the script</summary>
+
+Same deal - create a script, call it plant, here's the contents:
 
 ```cs
 public class Plant : MonoBehaviour
@@ -271,3 +273,38 @@ public class Plant : MonoBehaviour
     }
 }
 ```
+
+</details>
+
+<details>
+    <summary>Create and assign a layer for the water</summary>
+
+![Add Growth Source Layer](img/add-growth-source-layer.gif)
+
+</details>
+
+<details>
+    <summary>Add and configure the plant component</summary>
+
+![Add Plant Component](img/add-plant-component.gif)
+
+</details>
+
+<details>
+<summary>Test it!</summary>
+
+Hit play, test it out:
+
+![Test Plant Growth](img/test-plant-growth.gif)
+
+So bad, right?
+
+Think about how we can make this better:
+
+1. Tweak the growth rate
+2. Add ability to turn the hose on and off
+3. Adjust hose strength
+
+Check it in, move on.
+
+</details>
