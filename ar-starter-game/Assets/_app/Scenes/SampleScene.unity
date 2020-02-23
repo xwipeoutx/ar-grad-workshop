@@ -481,7 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ReferenceLibrary: {fileID: 11400000, guid: 7ba92894e6af5534eaa2061ad5567c4d, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 7ba92894e6af5534eaa2061ad5567c4d,
+    type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 4075710194854340550, guid: fe82943118ed88b42b9303d76127a3c8,
     type: 3}
@@ -700,8 +701,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UseCustomMaterial: 0
   m_CustomMaterial: {fileID: 0}
-  m_UseCustomRendererAsset: 0
-  m_CustomRendererAsset: {fileID: 0}
 --- !u!114 &1446654128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,15 +724,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1446654125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e3c44306fb1e439a9f18b2212b8ab70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Device: 0
-  m_PoseSource: 6
-  m_PoseProviderComponent: {fileID: 0}
-  m_TrackingType: 0
-  m_UpdateType: 0
-  m_UseRelativeTransform: 0
 --- !u!4 &1446654130
 Transform:
   m_ObjectHideFlags: 0
