@@ -19,6 +19,11 @@ public class Hose : MonoBehaviour
         }
     }
 
+    public void ToggleHose()
+    {
+        enabled = !enabled;
+    }
+
     private void SpawnADrop()
     {
         var obj = Instantiate(waterDrop, transform.position, Quaternion.identity);

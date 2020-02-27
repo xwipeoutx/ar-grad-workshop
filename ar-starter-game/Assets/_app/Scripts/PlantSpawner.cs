@@ -13,14 +13,14 @@ public class PlantSpawner : MonoBehaviour
     {
         var ray = new Ray(camera.transform.position, camera.transform.forward);
         
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         if (!UnityEditor.EditorApplication.isRemoteConnected)
         {
             var pos = ray.GetPoint(2); // 2m in front
             PlacePlant(new Pose(pos, Quaternion.identity));
             return;
         }
-        #endif
+#endif
         
         var raycastHits = new List<ARRaycastHit>();
         if (raycastManager.Raycast(ray, raycastHits))
