@@ -50,15 +50,6 @@ public class PlantSpawner : MonoBehaviour
             Random.Range(0.8f, 1.1f) // initial scale
         };
         
-        var plantGo = PhotonNetwork.Instantiate("Plant", Vector3.zero, Quaternion.identity, data: instantiateParams);
-        var plant = plantGo.GetComponent<Plant>();
+        PhotonNetwork.Instantiate("Plant", Vector3.zero, Quaternion.identity, data: instantiateParams);
     }
-}
-
-[Serializable]
-public struct PlantInstantiationData
-{
-    public Pose pose;
-    public float initialRotation;
-    public float initialScale;
 }
