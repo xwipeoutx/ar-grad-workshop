@@ -59,6 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c901022e399019d43a796510b9868eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  photonView: {fileID: 5281420315918905563}
   growthSource:
     serializedVersion: 2
     m_Bits: 512
@@ -79,10 +80,10 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 0
+  Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: -881856680743221365}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0

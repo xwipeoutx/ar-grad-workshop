@@ -35,39 +35,23 @@ public class PlantSpawner : MonoBehaviour
 
     void PlacePlant(Pose pose)
     {
-        var plant = CreatePlant(pose);
+        CreatePlant(pose);
     }
 
-    GameObject CreatePlant(Pose pose)
+    void CreatePlant(Pose pose)
     {
         var localPose = transform.InverseTransformPose(pose);
 
         var instantiateParams = new object[]
         {
             localPose.position, 
-            localPose.rotation
+            localPose.rotation,
+            Random.Range(0f, 360f), // y-rotation
+            Random.Range(0.8f, 1.1f) // initial scale
         };
         
-        var plantGo = PhotonNetwork.InstantiateSceneObject("Plant", Vector3.zero, Quaternion.identity, data: instantiateParams);
+        var plantGo = PhotonNetwork.Instantiate("Plant", Vector3.zero, Quaternion.identity, data: instantiateParams);
         var plant = plantGo.GetComponent<Plant>();
-        plant.BeginLookingAwesome();
-        return plantGo;
-
-#if UNITY_EDITOR
-        if (!UnityEditor.EditorApplication.isRemoteConnected)
-        {
-            var parent = new GameObject();
-            parent.transform.position = pose.position;
-            parent.transform.rotation = pose.rotation;
-
-            var editorPlantObject = Instantiate(plantPrefab, parent.transform);
-            return editorPlantObject;
-        }
-#endif
-
-        var anchor = anchorManager.AddAnchor(pose);
-        var plantObject = Instantiate(plantPrefab, anchor.transform);
-        return plantObject;
     }
 }
 
