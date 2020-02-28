@@ -172,7 +172,6 @@ var obj = Instantiate(waterDrop, transform.position, Quaternion.identity);
 ```
 
 Creates a new instance of the game object - much like the plant.  In this case though, we won't be anchoring it.
-```
 
 ```cs
 var rigidBody = obj.GetComponent<Rigidbody>();
